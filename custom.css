@@ -6,10 +6,23 @@
     --color-primary-main: #0f172a;
 }
 
-
 vd-document::part(instructions_slide_box_title) {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
     color: #0f172a;
     text-align: left;
+}
+
+vd-document::part(instructions_slide_box_subtitle) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f172a;
+    text-align: left;
+}
+
+vd-document::(partinstructions_slide_button) {
+    background: #0f172a;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
 }
