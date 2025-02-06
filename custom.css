@@ -20,7 +20,7 @@ vd-document::part(instructions_slide_box_subtitle) {
     text-align: left;
 }
 
-vd-document::(partinstructions_slide_button) {
+vd-document::part(instructions_slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
