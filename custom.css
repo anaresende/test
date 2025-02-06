@@ -2,4 +2,6 @@
 
 :root {
     --global-font-family-primary: "Inter";
+    --radius-sm: 4px;
+    --color-primary-main: #0f172a;
 }
