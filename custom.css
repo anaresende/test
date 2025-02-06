@@ -5,3 +5,11 @@
     --radius-sm: 4px;
     --color-primary-main: #0f172a;
 }
+
+
+vd-document::part(instructions_slide_box_title) {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    text-align: left;
+}
