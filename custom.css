@@ -50,7 +50,7 @@ vd-document::part(guide_modal) {
     border-radius: 4px;
 }
 
-.selection-item {
+vd-selection-item::global(.selection-item) {
     box-shaddow: none;
 }
 
