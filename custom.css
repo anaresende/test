@@ -25,4 +25,41 @@ vd-document::part(instructions_slide_button) {
     color: #ffffff;
     font-family: Inter;
     font-size: 14px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+    margin-top: -250px;
+}
+
+vd-document::part(guide_modal) {
+    top: -100px;
+}
+
+vd-document::part(guide_modal) {
+    top: -100px;
+}
+
+.button.secondary {
+    box-shaddow: none;
+    background: #0f172a;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+}
+
+.selection-item {
+    box-shaddow: none;
+}
+
+button::part(review_image_message_buttons_repeat) {
+    background: #dae6ee;
+    color: #0f172a;
+    font-family: Inter;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
 }
