@@ -54,7 +54,7 @@ vd-selection-item::global(.selection-item) {
     box-shaddow: none;
 }
 
-vd-review-image::part(review_image_message_buttons_repeat) {
+vd-document::part(review_image_message_buttons_repeat) {
     background: #dae6ee;
     color: #0f172a;
     font-family: Inter;
@@ -64,7 +64,7 @@ vd-review-image::part(review_image_message_buttons_repeat) {
     border-radius: 4px;
 }
 
-vd-review-image::part(review_image_message_buttons_continue) {
+::part(review_image_message_buttons_continue) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
