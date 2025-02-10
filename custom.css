@@ -7,6 +7,7 @@
     --global-spacing-size-0: 10px;
     --base-grid: 16px;
     --global-spacing-size-15: 48px;
+    --global-spacing-size-10: 16px;
 }
 
 vd-document::part(instructions_slide_box_title) {
@@ -27,11 +28,11 @@ vd-document::part(instructions_slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
-    font-size: 14px;
+    font-size: 24px;
     height: 40px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
-    width:100px;
+    width: 200px;
 }
 
 vd-guide-modal::part(guide_modal) {
