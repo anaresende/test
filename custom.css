@@ -28,7 +28,7 @@ vd-document::part(instructions_slide_button) {
     height: 40px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
-    margin-top: -250px;
+    width:100px;
 }
 
 vd-guide-modal::part(guide_modal) {
