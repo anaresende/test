@@ -4,9 +4,9 @@
     --global-font-family-primary: "Inter";
     --radius-sm: 4px;
     --color-primary-main: #0f172a;
-    --global-spacing-size-0: 0;
-    --base-grid: 1px;
-    --global-spacing-size-15: 1px;
+    --global-spacing-size-0: 10px;
+    --base-grid: 16px;
+    --global-spacing-size-15: 48px;
 }
 
 vd-document::part(instructions_slide_box_title) {
