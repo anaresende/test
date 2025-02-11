@@ -83,7 +83,7 @@ vd-document::part(display_message_media){
     display: none;
 }
 
-vd-guide-modal::part(instructions_slide_button) {
+vd-video::part(instructions_slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
