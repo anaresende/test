@@ -3,11 +3,14 @@
 :root {
     --global-font-family-primary: "Inter";
     --radius-sm: 4px;
+    --global-style-border-radius-3: 4px;
     --color-primary-main: #0f172a;
     --global-spacing-size-0: 10px;
     --base-grid: 16px;
     --global-spacing-size-15: 48px;
     --global-spacing-size-10: 16px;
+    --global-elevation-level-02: 0;
+    --global-typography-font-size-150: 20px;
 }
 
 vd-document::part(instructions_slide_box_title) {
@@ -28,7 +31,7 @@ vd-document::part(instructions_slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
-    font-size: 24px;
+    font-size: 20px;
     height: 40px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
@@ -38,17 +41,6 @@ vd-document::part(instructions_slide_button) {
 vd-guide-modal::part(guide_modal) {
     height: 75%;
     top: -100px;
-}
-
-.button.secondary {
-    box-shaddow: none;
-    background: #0f172a;
-    color: #ffffff;
-    font-family: Inter;
-    font-size: 14px;
-    height: 40px;
-    padding: 0 16px 0 16px;
-    border-radius: 4px;
 }
 
 vd-selection-item::global(.selection-item) {
@@ -65,7 +57,7 @@ vd-document::part(review_image_message_buttons_repeat) {
     border-radius: 4px;
 }
 
-::part(review_image_message_buttons_continue) {
+vd-document::part(review_image_message_buttons_continue) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
@@ -73,4 +65,16 @@ vd-document::part(review_image_message_buttons_repeat) {
     height: 40px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
+}
+
+vd-document::part(display_message) {
+    background: #0f172a;
+}
+
+vd-document::part(display_message_text) {
+    color: #ffffff;
+}
+
+vd-document::part(display_message_media){
+    display: none;
 }
