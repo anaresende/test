@@ -14,6 +14,7 @@
     --global-typography-font-size-150: 20px;
     --specific-color-background-default: #0f172a;
     --selection-item-text-color: #ffffff;
+    --content-wrapper-width: 500px;
 }
 
 vd-document::part(instructions_slide_box_title) {
@@ -55,7 +56,7 @@ vd-document::part(review_image_message_buttons_repeat) {
     color: #0f172a;
     font-family: Inter;
     font-size: 14px;
-    height: 60px;
+    height: 40px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
 }
@@ -82,7 +83,7 @@ vd-document::part(display_message_media){
     display: none;
 }
 
-vd-video::part(instructions_slide_button) {
+vd-guide-modal::part(instructions_slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
