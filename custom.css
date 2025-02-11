@@ -10,7 +10,10 @@
     --global-spacing-size-15: 48px;
     --global-spacing-size-10: 16px;
     --global-elevation-level-02: 0;
+    --global-elevation-level-04: 0;
     --global-typography-font-size-150: 20px;
+    --specific-color-background-default: #0f172a;
+    --selection-item-text-color: #ffffff;
 }
 
 vd-document::part(instructions_slide_box_title) {
@@ -52,7 +55,7 @@ vd-document::part(review_image_message_buttons_repeat) {
     color: #0f172a;
     font-family: Inter;
     font-size: 14px;
-    height: 40px;
+    height: 60px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
 }
