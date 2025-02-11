@@ -83,7 +83,7 @@ vd-document::part(display_message_media){
     display: none;
 }
 
-vd-video::part(slide_button) {
+vd-selfie::part(slide_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
