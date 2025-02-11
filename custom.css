@@ -35,7 +35,7 @@ vd-document::part(instructions_slide_button) {
     color: #ffffff;
     font-family: Inter;
     font-size: 20px;
-    height: 40px;
+    height: 60px;
     padding: 0 16px 0 16px;
     border-radius: 4px;
     width: 200px;
@@ -80,4 +80,15 @@ vd-document::part(display_message_text) {
 
 vd-document::part(display_message_media){
     display: none;
+}
+
+vd-video::part(instructions_slide_button) {
+    background: #0f172a;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 20px;
+    height: 60px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+    width: 200px;
 }
