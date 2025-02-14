@@ -99,7 +99,7 @@ vd-selfie::part(feedback) {
     background: #ffffff;
 }
 
-vd-selfie::part(restart_button) {
+vd-selfie::part(feedback_restart_button) {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
@@ -109,7 +109,7 @@ vd-selfie::part(restart_button) {
     border-radius: 4px;
 }
 
-vd-selfie::part(restart_button):hover {
+vd-selfie::part(feedback_restart_button):hover {
     background: #0f172a;
     color: #ffffff;
     font-family: Inter;
