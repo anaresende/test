@@ -123,3 +123,7 @@ vd-selfie::part(feedback_restart_button):hover {
 vd-selfie::part(instructions_slide_buttons_container) {
     display: none;
 }
+
+vd-selfie::part(instructions_slide_dots) {
+    display: none;
+}
