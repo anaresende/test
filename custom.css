@@ -15,6 +15,7 @@
     --specific-color-background-default: #0f172a;
     --selection-item-text-color: #ffffff;
     --content-wrapper-width: 500px;
+    --global-typography-font-size-150: 18px;
 }
 
 vd-document::part(instructions_slide_box_title) {
