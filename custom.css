@@ -118,3 +118,8 @@ vd-selfie::part(feedback_restart_button):hover {
     padding: 0 16px 0 16px;
     border-radius: 4px;
 }
+
+
+vd-selfie::part(instructions_slide_buttons_container) {
+    display: none;
+}
