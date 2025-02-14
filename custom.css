@@ -94,3 +94,27 @@ vd-selfie::part(instructions_slide_button) {
     border-radius: 4px;
     width: 200px;
 }
+
+vd-selfie::part(feedback) {
+    background: #ffffff;
+}
+
+vd-selfie::part(restart_button) {
+    background: #0f172a;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+}
+
+vd-selfie::part(restart_button):hover {
+    background: #0f172a;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 16px 0 16px;
+    border-radius: 4px;
+}
